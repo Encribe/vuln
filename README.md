@@ -1,0 +1,16 @@
+# downcast.sol
+
+A known-vulnerable example from the solbend class corpus, kept here to test solbend. The code is vulnerable on purpose. Do not deploy it.
+
+| | |
+|---|---|
+| Dataset | solbend class corpus |
+| Verdict | vulnerable |
+| Class | solvency |
+| Contract | Pot |
+| Solidity | 0.8.28 |
+| Vulnerable function | withdraw |
+| Source | authored for this benchmark (no code copied), unsafe downcast in the ledger update |
+| Pattern | withdraw subtracts a truncated amount but pays the full amount |
+
+MIT (solbend authors). See [LICENSE](LICENSE).
