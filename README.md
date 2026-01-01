@@ -1,0 +1,15 @@
+# AW06_Pointer.sol
+
+A known-vulnerable example from the solbend class corpus, kept here to test solbend. The code is vulnerable on purpose. Do not deploy it.
+
+| | |
+|---|---|
+| Dataset | solbend class corpus |
+| Verdict | vulnerable |
+| Class | arbitrary-storage-write |
+| Contract | Admin |
+| Solidity | 0.8.24 |
+| Vulnerable function | setAt |
+| Source | solbend-authored |
+
+solbend-authored (this repo), MIT. See [LICENSE](LICENSE).
