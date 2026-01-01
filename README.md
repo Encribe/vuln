@@ -7,7 +7,7 @@ A safe example from the solbend class corpus, kept here to test solbend: a scan 
 | Dataset | solbend class corpus |
 | Verdict | safe |
 | Class | token-hooks |
-| Contract | HookMint721Guarded |
+| Contract | HookMint721Safe |
 | Solidity | 0.8.35 |
 | Source | authored, solbend/examples/token-hooks |
 
