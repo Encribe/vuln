@@ -1,0 +1,14 @@
+# open_address_lottery_fixed.sol
+
+A safe example from the solbend class corpus, kept here to test solbend: a scan of it should prove it. It is the fixed side of an example whose buggy side is a branch of its own.
+
+| | |
+|---|---|
+| Dataset | solbend class corpus |
+| Verdict | safe |
+| Class | uninitialized-storage-pointer |
+| Contract | OpenAddressLottery |
+| Solidity | 0.4.19 |
+| Source | fix of open_address_lottery.sol |
+
+Apache-2.0 (SmartBugs curated), fix by solbend. See [LICENSE](LICENSE).
